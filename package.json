@@ -1,0 +1,26 @@
+{
+  "name": "autopromptlab",
+  "version": "1.0.0",
+  "description": "A production-quality AI web application for prompt testing, RAG, and LLM benchmarking",
+  "main": "backend/server.js",
+  "scripts": {
+    "backend": "node backend/server.js",
+    "frontend": "cd frontend && npm run dev",
+    "install-all": "npm install && cd frontend && npm install && cd ../backend && npm install",
+    "dev": "concurrently \"npm run backend\" \"npm run frontend\""
+  },
+  "keywords": [
+    "ai",
+    "llm",
+    "rag",
+    "benchmarking",
+    "openai",
+    "gemini",
+    "claude"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
