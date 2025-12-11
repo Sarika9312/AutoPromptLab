@@ -25,20 +25,20 @@
 
 ## 🎯 Overview
 
-AutoPromptLab is a comprehensive AI testing and benchmarking platform that enables developers and AI engineers to:
+AutoPromptLab is a comprehensive AI testing and benchmarking platform powered by **Google Gemini API (100% FREE)** that enables developers and AI engineers to:
 
-- **Test prompts** across multiple LLM providers simultaneously
-- **Upload and query PDFs** using advanced Retrieval-Augmented Generation (RAG)
-- **Compare AI model performance** with detailed metrics and visualizations
+- **Test prompts** using Google Gemini AI
+- **Upload and query PDFs** using Retrieval-Augmented Generation (RAG) with text-based matching
+- **Benchmark AI performance** with detailed metrics and visualizations
 - **Generate workflow documentation** for any task using AI
 
-Built with modern web technologies and designed for scalability, AutoPromptLab provides an intuitive interface for working with cutting-edge AI models.
+Built with modern web technologies and designed for scalability, AutoPromptLab provides an intuitive interface for working with cutting-edge AI models **at zero cost**.
 
 ## ✨ Features
 
 ### 🧪 Prompt Tester
-- Test prompts simultaneously across OpenAI GPT, Google Gemini, and Anthropic Claude
-- Side-by-side response comparison
+- Test prompts using Google Gemini AI (FREE)
+- Real-time response generation
 - Automatic scoring (accuracy, creativity, coherence)
 - Real-time latency tracking
 - Interactive radar charts for score visualization
@@ -46,11 +46,11 @@ Built with modern web technologies and designed for scalability, AutoPromptLab p
 
 ### 📄 RAG Uploader
 - Drag-and-drop PDF upload
-- Automatic document chunking and embedding generation
-- Semantic search across uploaded documents
+- Automatic document chunking with text-based matching
+- Keyword search across uploaded documents
 - Source citation with similarity scores
 - Document management (upload, view, delete)
-- Context-aware answer generation
+- Context-aware answer generation using Gemini
 
 ### 📊 Benchmark Dashboard
 - Comprehensive model comparison
@@ -86,9 +86,7 @@ Built with modern web technologies and designed for scalability, AutoPromptLab p
 - **Express** - Web framework
 - **MongoDB** - NoSQL database
 - **Mongoose** - MongoDB ODM
-- **OpenAI API** - GPT models
-- **Google Generative AI** - Gemini models
-- **Anthropic SDK** - Claude models
+- **Google Generative AI** - Gemini API (FREE)
 - **Multer** - File upload middleware
 - **pdf-parse** - PDF text extraction
 
@@ -119,9 +117,8 @@ Built with modern web technologies and designed for scalability, AutoPromptLab p
 │  │  AI Service | RAG Service | Scoring Utils            │  │
 │  └───┬────────────┬─────────────┬───────────────────────┘  │
 │      │            │             │                           │
-│  ┌───┴───┐    ┌───┴───┐    ┌───┴────┐                     │
-│  │OpenAI │    │Gemini │    │ Claude │                     │
-│  └───────┘    └───────┘    └────────┘                     │
+│      └────────────┴──────────────┘                          │
+│              Google Gemini API (FREE)                      │
 └───────────────────────┬─────────────────────────────────────┘
                         │ Mongoose ODM
 ┌───────────────────────┴─────────────────────────────────────┐
@@ -139,10 +136,8 @@ Built with modern web technologies and designed for scalability, AutoPromptLab p
 
 - Node.js >= 18.0.0
 - MongoDB (local or Atlas)
-- API Keys:
-  - OpenAI API Key
-  - Google Gemini API Key
-  - Anthropic API Key
+- API Key:
+  - **Google Gemini API Key** (FREE - Get it at https://aistudio.google.com/app/apikey)
 
 ### Installation
 
@@ -557,36 +552,27 @@ Both frontend and backend support hot reload during development:
 - Frontend: Vite HMR
 - Backend: Use `nodemon` for auto-restart
 
-## 🌐 Deployment
+## 📸 Screenshots
 
-### Frontend (Vercel/Netlify)
+### Home Page
+![Home Page](screenshots/home.png)
+*Beautiful landing page with gradient design and feature highlights*
 
-1. Build the frontend:
-```bash
-cd frontend
-npm run build
-```
+### Prompt Tester
+![Prompt Tester](screenshots/prompt-tester.png)
+*Test your prompts with Google Gemini AI and get instant responses with scoring*
 
-2. Deploy the `dist` folder to your hosting service
+### RAG Uploader
+![RAG Uploader](screenshots/rag-uploader.png)
+*Upload PDFs and ask questions - get AI-powered answers with source citations*
 
-3. Set environment variables in your hosting dashboard
+### Benchmark Dashboard
+![Benchmark Dashboard](screenshots/benchmark.png)
+*Comprehensive analytics and performance metrics visualization*
 
-### Backend (Heroku/Railway/Render)
-
-1. Ensure all environment variables are set
-
-2. Deploy using Git:
-```bash
-git push heroku main
-```
-
-3. Or use platform-specific deployment methods
-
-### Database (MongoDB Atlas)
-
-1. Create a MongoDB Atlas cluster
-2. Whitelist your application IP
-3. Update `MONGODB_URI` in environment variables
+### Workflow Generator
+![Workflow Generator](screenshots/workflow.png)
+*Generate step-by-step workflows for any task using AI*
 
 ## 🚀 Future Enhancements
 
@@ -620,20 +606,21 @@ Contributions are welcome! Please follow these steps:
 
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-## 👥 Authors
+## 👥 Author
 
-- **Your Name** - Initial work
+- **Sarika Panchalwar** - Full Stack Development
+  - Email: sarikapanchalwar@gmail.com
+  - GitHub: [@Sarika9312](https://github.com/Sarika9312)
 
 ## 🙏 Acknowledgments
 
-- OpenAI for GPT models
-- Google for Gemini API
-- Anthropic for Claude
+- Google for the FREE Gemini API
 - The open-source community
+- All contributors and supporters
 
 ## 📞 Support
 
-For support, email your@email.com or open an issue in the repository.
+For support, email sarikapanchalwar@gmail.com or open an issue in the repository.
 
 ---
 
