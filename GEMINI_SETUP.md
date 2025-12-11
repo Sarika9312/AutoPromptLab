@@ -36,7 +36,7 @@ GEMINI_API_KEY=AIzaSyXXXXXXXXXXXXXXXXXXXXXXXXXXX
 4. Get connection string
 5. Update `.env`:
 ```env
-MONGODB_URI=mongodb+srv://username:password@cluster0.xxxxx.mongodb.net/autopromptlab
+MONGODB_URI=your_mongodb_connection_string_here
 ```
 
 ### Option B: Local MongoDB

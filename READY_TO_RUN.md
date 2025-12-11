@@ -34,7 +34,7 @@ GEMINI_API_KEY=your_actual_gemini_api_key_here
 3. Create FREE cluster (M0)
 4. Click "Connect" → "Connect your application"
 5. Copy connection string
-6. Add to .env: MONGODB_URI=mongodb+srv://username:password@cluster.mongodb.net/autopromptlab
+6. Add to .env: MONGODB_URI=<paste_your_connection_string_here>
 ```
 
 **Option B: Local MongoDB**
