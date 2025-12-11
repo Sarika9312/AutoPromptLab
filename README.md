@@ -552,28 +552,6 @@ Both frontend and backend support hot reload during development:
 - Frontend: Vite HMR
 - Backend: Use `nodemon` for auto-restart
 
-## 📸 Screenshots
-
-### Home Page
-![Home Page](screenshots/home.png)
-*Beautiful landing page with gradient design and feature highlights*
-
-### Prompt Tester
-![Prompt Tester](screenshots/prompt-tester.png)
-*Test your prompts with Google Gemini AI and get instant responses with scoring*
-
-### RAG Uploader
-![RAG Uploader](screenshots/rag-uploader.png)
-*Upload PDFs and ask questions - get AI-powered answers with source citations*
-
-### Benchmark Dashboard
-![Benchmark Dashboard](screenshots/benchmark.png)
-*Comprehensive analytics and performance metrics visualization*
-
-### Workflow Generator
-![Workflow Generator](screenshots/workflow.png)
-*Generate step-by-step workflows for any task using AI*
-
 ## 🚀 Future Enhancements
 
 - [ ] User authentication and authorization
